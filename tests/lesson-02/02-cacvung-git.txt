@@ -1,0 +1,6 @@
+a/ Khi tạo 3 file: file1, file2, file3 thì cả 3 đều nằm trong working directory, staging area và local repository đều trống.
+b/ Chạy lệnh: git init chỉ mới khởi tạo kho git, cả 3 vẫn còn nằm trong working directory.
+c/ Chạy lệnh: git commit -m"innit project" thì hệ thống sẽ báo lỗi do chưa có file nào được add. Cả 3 vẫn đều nằm trong working directory.
+d/ Chạy lệnh: gid add file1 thì hệ thống sẽ add file1 vào staging area và 2 file còn lại vẫn nằm ở working directory.
+e/ Chạy lệnh: git commit -m"add file1" thì hệ thống sẽ lưu file1 vào local repository, 2 file còn lại vẫn nằm ở working directory.
+f/ Chạy lệnh: git commit -m"add file" thì hệ thống sẽ không thực hiện được vì không có file nào khác ngoài file1 được add vào staging area trước đó nữa. 

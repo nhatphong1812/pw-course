@@ -1,0 +1,4 @@
+git innit: khởi tạo repository git mới trong thư mục hiện tại.
+git add <file_name>: đưa 1 file cụ thể vào trong staging area.
+git add .: đưa toàn bộ các tệp có thay đổi trong thư mục hiện tại vào trong staging area.
+git commit -m"massage": lưu lại các thay đổi hiện có từ staging area vào kho chứa cục bộ kèm theo message.
