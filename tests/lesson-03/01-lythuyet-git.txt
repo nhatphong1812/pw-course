@@ -1,0 +1,4 @@
+1/ git commit --amend: dùng để gộp những thay đổi gần nhất trong staging area vào commit gần nhất mà không tạo ra commit mới.
+2/ git commit --amend -m"massage": thay đổi massage của commit gấn nhất.
+3/ git restore --staged <file>: hệ thống sẽ chuyển file với tên tương ứng vừa nhập từ staging area về lại working directory.
+4/ git reset HEAD~1: hệ thống sẽ chuyển file gần nhất từ local repository về working dírectory.
