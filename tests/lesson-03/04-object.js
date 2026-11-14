@@ -65,3 +65,4 @@ for(let i=0; i<school.classB.length; i++){
     console.log("Hoc sinh lop B: "+school.classB[i]);
 }
 
+
